@@ -6,7 +6,23 @@ void MatrixChain(int *p, int n, int ** m, int **s);
 
 int main()
 {
+	int p[7] = {30,35,15,5,10,20,25};
 
+	int m[7][7];
+	int s[7][7];
+
+
+	MatrixChain(p, 6, m, s);
+
+	for (int i = 1; i <=6; i++)
+	{
+		for (int j = 1; j <= 6; j++)
+		{
+			cout << m[i][j] <<"\t";
+		}
+		
+		cout<<endl;
+	}
 	return 0;
 }
 
