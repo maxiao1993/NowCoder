@@ -5,6 +5,8 @@ using namespace std;
 //void MatrixChain(int *p, int n, int ** m, int ** s);
 
 void MatrixChain();
+void Traceback(int i, int j);
+
 int s[7][7];
 int m[7][7];
 int p[7] = {30,35,15,5,10,20,25};
@@ -33,6 +35,8 @@ int main()
 		}
 		cout <<endl;
 	}
+
+	Traceback(1,6);
 	return 0;
 }
 
@@ -59,4 +63,14 @@ void MatrixChain()
 			}
 		}
 
+}
+
+void Traceback(int i, int j)
+{
+	if (i == j)
+		return ;
+	Traceback(i,s[i][j]);
+	Traceback(s[i][j]+1,j);
+	cout << "Multiply A " << i <<","<<s[i][j];
+	cout << " and A " <<(s[i][j]+1) << "," <<j<<endl;
 }
