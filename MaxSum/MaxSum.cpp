@@ -7,7 +7,7 @@ static int MaxSubSum(int *a, int left, int right);
 
 int main (void)
 {
-	int a[] = {2, 11, -4, 13, -5, -2};
+	int a[] = {0, -2, 11, -4, 13, -5, -2};
 	int sum = MaxSum(6,a);
 	cout << sum <<endl;
 	return 0;
@@ -41,7 +41,7 @@ static int MaxSubSum(int *a, int left, int right)
 		int rights = 0;
 		for (int i = center+1; i <= right; i++)
 		{
-			right += a[i];
+			rights += a[i];
 			if (rights > s2)
 				s2 = rights;
 		}
