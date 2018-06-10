@@ -1,7 +1,7 @@
 #include<iostream>
 
 template <class Type>
-void Knapsack(Type v, int w, int c, int n, Type ** m)
+void Knapsack(Type v[], int w[], int c, int n, Type ** m)
 {
 	// 初始化第n个物品
 	int jMax = min(w[n]-1, c);
@@ -26,7 +26,7 @@ void Knapsack(Type v, int w, int c, int n, Type ** m)
 }
 
 template<class Type>
-void Traceback(Type ** m, int w, int c, int n, int x)
+void Traceback(Type ** m, int w[], int c, int n, int x[])
 {
 	for (int i =1; i <n; i++)
 	{
