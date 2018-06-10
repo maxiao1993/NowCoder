@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 
 template <class Type>
 void Knapsack(Type v[], int w[], int c, int n, Type ** m)
