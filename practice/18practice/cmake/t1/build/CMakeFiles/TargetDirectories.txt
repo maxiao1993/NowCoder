@@ -1,0 +1,1 @@
+/home/maxiao/mytest/18practice/cmake/t1/build/CMakeFiles/hello.dir
