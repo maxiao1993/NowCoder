@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+age	../hello.py	/^age=int(input())$/;"	kind:variable	line:4
+allMyCats.py	../allMyCats.py	1;"	kind:file	line:1
+catNames	../allMyCats.py	/^    catNames = catNames + [name]$/;"	kind:variable	line:8
+catNames	../allMyCats.py	/^catNames = []$/;"	kind:variable	line:1
+exitExample.py	../exitExample.py	1;"	kind:file	line:1
+fiveTimes.py	../fiveTimes.py	1;"	kind:file	line:1
+fortune	../magic8Ball.py	/^fortune = getAnswer(r)$/;"	kind:variable	line:25
+getAnswer	../magic8Ball.py	/^def getAnswer(answerNumber):$/;"	kind:function	line:4
+guess	../guessTheNumber.py	/^    guess = int(input())$/;"	kind:variable	line:8
+guessTheNumber.py	../guessTheNumber.py	1;"	kind:file	line:1
+hello	../helloFunc.py	/^def hello():$/;"	kind:function	line:1
+hello	../helloFunc2.py	/^def hello(name):$/;"	kind:function	line:1
+hello.py	../hello.py	1;"	kind:file	line:1
+helloFunc.py	../helloFunc.py	1;"	kind:file	line:1
+helloFunc2.py	../helloFunc2.py	1;"	kind:file	line:1
+i	../fiveTimes.py	/^    i = i + 1$/;"	kind:variable	line:5
+i	../fiveTimes.py	/^i = 0$/;"	kind:variable	line:2
+magic8Ball.py	../magic8Ball.py	1;"	kind:file	line:1
+magic8Ball2.py	../magic8Ball2.py	1;"	kind:file	line:1
+messages	../magic8Ball2.py	/^messages = ['It is certain',$/;"	kind:variable	line:3
+myPets	../myPets.py	/^myPets = ['Zophie','Pooka','Fat-tail']$/;"	kind:variable	line:1
+myPets.py	../myPets.py	1;"	kind:file	line:1
+myRange.py	../myRange.py	1;"	kind:file	line:1
+mySum.py	../mySum.py	1;"	kind:file	line:1
+name	../allMyCats.py	/^    name = input()$/;"	kind:variable	line:5
+name	../hello.py	/^name=input()$/;"	kind:variable	line:2
+name	../myPets.py	/^name = input()$/;"	kind:variable	line:3
+name	../swordfish.py	/^    name = input()$/;"	kind:variable	line:3
+name	../while.py	/^    name = input()$/;"	kind:variable	line:4
+password	../swordfish.py	/^    password = input()$/;"	kind:variable	line:7
+printRandom.py	../printRandom.py	1;"	kind:file	line:1
+r	../magic8Ball.py	/^r = random.randint(1,9)$/;"	kind:variable	line:24
+response	../exitExample.py	/^    response = input()$/;"	kind:variable	line:4
+secretNumber	../guessTheNumber.py	/^secretNumber = random.randint(1,20)$/;"	kind:variable	line:3
+swordfish.py	../swordfish.py	1;"	kind:file	line:1
+total	../mySum.py	/^    total = total + num$/;"	kind:variable	line:3
+total	../mySum.py	/^total = 0$/;"	kind:variable	line:1
+while.py	../while.py	1;"	kind:file	line:1
