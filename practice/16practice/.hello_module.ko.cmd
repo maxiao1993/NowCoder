@@ -1,1 +1,0 @@
-cmd_/home/maxiao/mytest/16practice/hello_module.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.16.0-4-common/scripts/module-common.lds --build-id  -o /home/maxiao/mytest/16practice/hello_module.ko /home/maxiao/mytest/16practice/hello_module.o /home/maxiao/mytest/16practice/hello_module.mod.o
